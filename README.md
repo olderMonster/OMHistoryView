@@ -28,7 +28,7 @@ pod 'OMHistoryView'
 定义一个属性，以懒加载的方式去实例化该对象
 ```
 @property (nonatomic , strong)OMHistoryView *historyView;
-、
+
 - (OMHistoryView *)historyView{
     if (_historyView == nil) {
         _historyView = [[OMHistoryView alloc] init];
@@ -88,7 +88,7 @@ pod 'OMHistoryView'
 ```
 
 
-对于“清空历史记录”的按钮默认是s显示，即便不去设置clearText的属性，所以如果不需要显示“清空历史记录”按钮只需要设置showClear为NO就可以。
+对于“清空历史记录”的按钮默认是显示，即便不去设置clearText的属性，所以如果不需要显示“清空历史记录”按钮只需要设置showClear为NO就可以。
 ```
 /**
 清空搜索历史文本
@@ -103,4 +103,4 @@ pod 'OMHistoryView'
 ```
 
 
-更多实现细节以及效果可以再demo中去查看API说明。
+更多实现细节以及效果可以在demo中去查看API说明。
