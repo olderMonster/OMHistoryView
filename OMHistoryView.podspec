@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "OMHistoryView.podspec"
-  s.version      = "0.0.3"
+  s.name         = "OMHistoryView"
+  s.version      = "0.0.4"
   s.summary      = "常用的搜索历史展示视图"
 
   # This description is used to generate tags and improve search results.
