@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57E400A0214AAD460036D0A3 /* JMCFleetHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E4009F214AAD450036D0A3 /* JMCFleetHistoryView.m */; };
+		57780B24214B3F280000AC1D /* OMHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57780B23214B3F280000AC1D /* OMHistoryView.m */; };
 		57F23721214AAC5900F12925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F23720214AAC5900F12925 /* AppDelegate.m */; };
 		57F23724214AAC5900F12925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F23723214AAC5900F12925 /* ViewController.m */; };
 		57F23727214AAC5900F12925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F23725214AAC5900F12925 /* Main.storyboard */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		57E4009E214AAD450036D0A3 /* JMCFleetHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMCFleetHistoryView.h; sourceTree = "<group>"; };
-		57E4009F214AAD450036D0A3 /* JMCFleetHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMCFleetHistoryView.m; sourceTree = "<group>"; };
+		57780B22214B3F280000AC1D /* OMHistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMHistoryView.h; sourceTree = "<group>"; };
+		57780B23214B3F280000AC1D /* OMHistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMHistoryView.m; sourceTree = "<group>"; };
 		57F2371C214AAC5900F12925 /* OMHistoryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMHistoryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F2371F214AAC5900F12925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		57F23720214AAC5900F12925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57780B21214B3F280000AC1D /* OMHistoryView */ = {
+			isa = PBXGroup;
+			children = (
+				57780B22214B3F280000AC1D /* OMHistoryView.h */,
+				57780B23214B3F280000AC1D /* OMHistoryView.m */,
+			);
+			path = OMHistoryView;
+			sourceTree = "<group>";
+		};
 		57F23713214AAC5900F12925 = {
 			isa = PBXGroup;
 			children = (
@@ -65,8 +74,7 @@
 				57F23720214AAC5900F12925 /* AppDelegate.m */,
 				57F23722214AAC5900F12925 /* ViewController.h */,
 				57F23723214AAC5900F12925 /* ViewController.m */,
-				57E4009E214AAD450036D0A3 /* JMCFleetHistoryView.h */,
-				57E4009F214AAD450036D0A3 /* JMCFleetHistoryView.m */,
+				57780B21214B3F280000AC1D /* OMHistoryView */,
 				57F23725214AAC5900F12925 /* Main.storyboard */,
 				57F23728214AAC5A00F12925 /* Assets.xcassets */,
 				57F2372A214AAC5A00F12925 /* LaunchScreen.storyboard */,
@@ -147,9 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F23724214AAC5900F12925 /* ViewController.m in Sources */,
+				57780B24214B3F280000AC1D /* OMHistoryView.m in Sources */,
 				57F2372F214AAC5A00F12925 /* main.m in Sources */,
 				57F23721214AAC5900F12925 /* AppDelegate.m in Sources */,
-				57E400A0214AAD460036D0A3 /* JMCFleetHistoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
